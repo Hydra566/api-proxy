@@ -9,6 +9,7 @@ const PROXY_TARGETS = [
     { path: "/api/proxy/google", target: "https://generativelanguage.googleapis.com" },
     { path: "/api/proxy/anthropic", target: "https://api.anthropic.com" },
     { path: "/api/proxy/ipify", target: "https://api64.ipify.org" },
+    { path: "/api/proxy/ya", target: "https://yandex.ru/internet" },
 ]
 
 PROXY_TARGETS.forEach(({ path, target }) => {
